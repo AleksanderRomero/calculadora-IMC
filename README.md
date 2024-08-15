@@ -1,5 +1,9 @@
 # Calculadora de IMC (Índice de Massa Corporal)
 
+## Acesso
+
+https://aleksanderromero.github.io/calculadora-IMC/
+
 ## Descrição do Projeto
 
 Este projeto é uma aplicação web simples e intuitiva que permite aos usuários calcular seu Índice de Massa Corporal (IMC) com base em sua altura e peso. Desenvolvido utilizando as tecnologias HTML, CSS e JavaScript, o projeto visa fornecer uma interface amigável e responsiva, facilitando o acesso a informações essenciais sobre a saúde dos usuários.
