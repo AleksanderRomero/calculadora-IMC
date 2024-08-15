@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
 
+:root {
+    --green-color: #16a34a;
+    --white-color: #f8fafc;
+    --light-gray: #cbd5e1;
+    --dark-gray: #ffffff34;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +38,7 @@ body {
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
-    color: #f8fafc;
+    color: var(--white-color);
     background-color: #262626;
     border-radius: 8px;
 }
@@ -50,7 +57,7 @@ body {
 #title::after {
     position: absolute;
     content: "";
-    background-color: #16a34a;
+    background-color: var(--green-color);
     width: 8rem;
     height: 3px;
     bottom: 0;
@@ -60,7 +67,7 @@ body {
 
 .input-box label {
     font-size: 1.1rem;
-    color: #cbd5e1;
+    color: var(--light-gray);
     font-weight: 500;
 }
 
@@ -76,7 +83,7 @@ body {
 
 .input-field span,
 .input-field i {
-    color: #cbd5e1;
+    color: var(--light-gray);
     font-size: 1.3rem;
     padding: 0.6rem;
 }
@@ -86,7 +93,7 @@ body {
     border: none;
     width: 100%;
     font-size: 1.3rem;
-    color: #f8fafc;
+    color: var(--white-color);
     padding: 0 0.5rem;
 }
 
@@ -103,8 +110,8 @@ body {
     border: none;
     font-size: 1.25rem;
     font-weight: bold;
-    background-color: #16a34a;
-    color: #f8fafc;
+    background-color: var(--green-color);
+    color: var(--white-color);
     padding: 0.5rem 0;
     border-radius: 3px;
     cursor: pointer;
@@ -114,7 +121,7 @@ body {
     display: flex;
     gap: 2rem;
     align-items: center;
-    border-top: 1px solid #ffffff34;
+    border-top: 1px solid var(--dark-gray);
     padding: 0.75rem 0;
 }
 
@@ -127,7 +134,7 @@ body {
 
 #bmi span:last-child {
     font-size: 0.875rem;
-    color: #cbd5e1;
+    color: var(--light-gray);
 }
 
 #description {
@@ -135,12 +142,12 @@ body {
 }
 
 #more_info {
-    border-top: 1px solid #ffffff34;
+    border-top: 1px solid var(--dark-gray);
     padding-top: 1.5rem;
 }
 
 #more_info a {
-    color: #16a34a;
+    color: var(--green-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +157,7 @@ body {
 }
 
 #more_info a:hover {
-    color: #cbd5e1;
+    color: var(--light-gray);
 }
 
 .hidden {
@@ -158,7 +165,7 @@ body {
 }
 
 .normal {
-    color: #16a34a;
+    color: var(--green-color);
 }
 
 .alert {
