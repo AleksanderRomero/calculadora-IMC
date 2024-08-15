@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main id="container">
+        <section id="img">
+            <img src="./assets/images/personal.svg" alt="">
+        </section>
+
+        <section id="calculator">
+            <form action="" id="form">
+                <h1 id="title">
+                    Calculadora - IMC
+                </h1>
+
+                <div class="input-box">
+                    <label for="weight">
+                        Peso em Kg
+                    </label>
+                    <div class="input-field">
+                        <i class="ph ph-barbell"></i>
+                        <input type="number" id="weight" required>
+                        <span>Kg</span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="height">
+                        Altura em metros
+                    </label>
+                    <div class="input-field">
+                        <i class="ph ph-ruler"></i>
+                        <input type="number" id="height" required>
+                        <span>m</span>
+                    </div>
+                </div>
+                <button id="calculate">Calcular</button>
+            </form>
+
+            <div id="infos" class="hidden">
+                <div id="result">
+
+                    <div id="bmi">
+                        <span id="value">55</span>
+                        <span>Seu IMC</span>
+                    </div>
+
+                    <div id="description">
+                        <span>Voce está no peso ideal</span>
+                    </div>
+                </div>
+
+                <div id="more_info">
+                    <a
+                        href="https://brasilescola.uol.com.br/saude-na-escola/Indice-massa-corporea-imc.htm">Mais
+                        informações sobre o IMC <i class="ph ph-arrow-square-out"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
