@@ -1,6 +1,6 @@
 # Calculadora de IMC (Índice de Massa Corporal)
 
-## Acesso
+## Hospedagem
 
 https://aleksanderromero.github.io/calculadora-IMC/
 
