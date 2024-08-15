@@ -6,7 +6,7 @@ Este projeto é uma aplicação web simples e intuitiva que permite aos usuário
 
 ## Funcionalidades
 
-- **Entrada de Dados:** O usuário pode inserir sua altura (em metros) e peso (em quilogramas) nos campos apropriados.
+- **Entrada de Dados:** O usuário pode inserir sua altura (em centímetros) e peso (em quilogramas) nos campos apropriados.
 - **Cálculo Automático:** Com base nos valores inseridos, o JavaScript calcula automaticamente o IMC e exibe o resultado na tela.
 - **Classificação do IMC:** O resultado é acompanhado de uma classificação que indica se o IMC está abaixo do peso, no peso ideal, ou acima do peso, seguindo as diretrizes da Organização Mundial da Saúde (OMS).
 - **Design Responsivo:** A interface foi desenvolvida com CSS responsivo, garantindo uma boa experiência de uso em dispositivos móveis, tablets e desktops.
